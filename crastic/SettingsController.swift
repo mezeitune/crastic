@@ -8,12 +8,11 @@
 
 import UIKit
 
-class RoomsController: UIViewController {
- 
-    @IBAction func roomb(sender: AnyObject) {
-        
-        self.performSegueWithIdentifier("push2", sender: self)
+class SettingsController: UIViewController {
+    @IBAction func goButton(sender: AnyObject) {
+        self.performSegueWithIdentifier("push3", sender: self)
     }
+   
     
     
     

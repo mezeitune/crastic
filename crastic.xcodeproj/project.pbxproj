@@ -16,6 +16,7 @@
 		FA66898E1C8A713200B4BA88 /* crasticUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA66898D1C8A713200B4BA88 /* crasticUITests.swift */; };
 		FA66899C1C8A757400B4BA88 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA66899B1C8A757400B4BA88 /* MainController.swift */; };
 		FA66899E1C8A883000B4BA88 /* RoomsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA66899D1C8A883000B4BA88 /* RoomsController.swift */; };
+		FA6689A01C8A8F2100B4BA88 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA66899F1C8A8F2100B4BA88 /* SettingsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		FA66898F1C8A713200B4BA88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA66899B1C8A757400B4BA88 /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		FA66899D1C8A883000B4BA88 /* RoomsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomsController.swift; sourceTree = "<group>"; };
+		FA66899F1C8A8F2100B4BA88 /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				FA66896D1C8A713200B4BA88 /* AppDelegate.swift */,
 				FA66896F1C8A713200B4BA88 /* ViewController.swift */,
 				FA66899D1C8A883000B4BA88 /* RoomsController.swift */,
+				FA66899F1C8A8F2100B4BA88 /* SettingsController.swift */,
 				FA66899B1C8A757400B4BA88 /* MainController.swift */,
 				FA6689711C8A713200B4BA88 /* Main.storyboard */,
 				FA6689741C8A713200B4BA88 /* Assets.xcassets */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA66899E1C8A883000B4BA88 /* RoomsController.swift in Sources */,
+				FA6689A01C8A8F2100B4BA88 /* SettingsController.swift in Sources */,
 				FA6689701C8A713200B4BA88 /* ViewController.swift in Sources */,
 				FA66899C1C8A757400B4BA88 /* MainController.swift in Sources */,
 				FA66896E1C8A713200B4BA88 /* AppDelegate.swift in Sources */,

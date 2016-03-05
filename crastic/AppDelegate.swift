@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  crastic
 //
-//  Created by adox on 4/3/16.
-//  Copyright © 2016 adox. All rights reserved.
+//  Created by Velvat on 4/3/16.
+//  Copyright © 2016 Velvat. All rights reserved.
 //
 
 import UIKit
