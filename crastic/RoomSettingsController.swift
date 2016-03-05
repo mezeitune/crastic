@@ -11,7 +11,9 @@ import UIKit
 class RoomSettingsController: UIViewController {
    
     @IBAction func goButton(sender: AnyObject) {
-         self.performSegueWithIdentifier("push3", sender: self)
+        self.performSegueWithIdentifier("push3", sender: self )
+        
+        
     }
     
     override func viewDidLoad() {

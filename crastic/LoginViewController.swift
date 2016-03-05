@@ -20,6 +20,7 @@ class LoginViewController: UIViewController {
             self.performSegueWithIdentifier("push1", sender: self)
         }else{
             okLabel.text="No es correcto"
+          
         }
     }
     

@@ -17,6 +17,7 @@
 		FA66899C1C8A757400B4BA88 /* RoomEditController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA66899B1C8A757400B4BA88 /* RoomEditController.swift */; };
 		FA66899E1C8A883000B4BA88 /* RoomsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA66899D1C8A883000B4BA88 /* RoomsController.swift */; };
 		FA6689A01C8A8F2100B4BA88 /* RoomSettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA66899F1C8A8F2100B4BA88 /* RoomSettingsController.swift */; };
+		FA6689A21C8A9B0200B4BA88 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6689A11C8A9B0200B4BA88 /* Util.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		FA66899B1C8A757400B4BA88 /* RoomEditController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomEditController.swift; sourceTree = "<group>"; };
 		FA66899D1C8A883000B4BA88 /* RoomsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomsController.swift; sourceTree = "<group>"; };
 		FA66899F1C8A8F2100B4BA88 /* RoomSettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomSettingsController.swift; sourceTree = "<group>"; };
+		FA6689A11C8A9B0200B4BA88 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,14 +105,11 @@
 		FA66896C1C8A713200B4BA88 /* crastic */ = {
 			isa = PBXGroup;
 			children = (
-				FA66896D1C8A713200B4BA88 /* AppDelegate.swift */,
-				FA66896F1C8A713200B4BA88 /* LoginViewController.swift */,
-				FA66899D1C8A883000B4BA88 /* RoomsController.swift */,
-				FA66899F1C8A8F2100B4BA88 /* RoomSettingsController.swift */,
-				FA66899B1C8A757400B4BA88 /* RoomEditController.swift */,
-				FA6689711C8A713200B4BA88 /* Main.storyboard */,
+				FA6689A61C8A9ED500B4BA88 /* Util */,
+				FA6689A51C8A9ECE00B4BA88 /* view */,
+				FA6689A41C8A9EC600B4BA88 /* model */,
+				FA6689A31C8A9EBC00B4BA88 /* controller */,
 				FA6689741C8A713200B4BA88 /* Assets.xcassets */,
-				FA6689761C8A713200B4BA88 /* LaunchScreen.storyboard */,
 				FA6689791C8A713200B4BA88 /* Info.plist */,
 			);
 			path = crastic;
@@ -132,6 +131,42 @@
 				FA66898F1C8A713200B4BA88 /* Info.plist */,
 			);
 			path = crasticUITests;
+			sourceTree = "<group>";
+		};
+		FA6689A31C8A9EBC00B4BA88 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				FA66899B1C8A757400B4BA88 /* RoomEditController.swift */,
+				FA66899F1C8A8F2100B4BA88 /* RoomSettingsController.swift */,
+				FA66899D1C8A883000B4BA88 /* RoomsController.swift */,
+				FA66896F1C8A713200B4BA88 /* LoginViewController.swift */,
+				FA66896D1C8A713200B4BA88 /* AppDelegate.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		FA6689A41C8A9EC600B4BA88 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		FA6689A51C8A9ECE00B4BA88 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				FA6689761C8A713200B4BA88 /* LaunchScreen.storyboard */,
+				FA6689711C8A713200B4BA88 /* Main.storyboard */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		FA6689A61C8A9ED500B4BA88 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				FA6689A11C8A9B0200B4BA88 /* Util.swift */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA66899E1C8A883000B4BA88 /* RoomsController.swift in Sources */,
+				FA6689A21C8A9B0200B4BA88 /* Util.swift in Sources */,
 				FA6689A01C8A8F2100B4BA88 /* RoomSettingsController.swift in Sources */,
 				FA6689701C8A713200B4BA88 /* LoginViewController.swift in Sources */,
 				FA66899C1C8A757400B4BA88 /* RoomEditController.swift in Sources */,

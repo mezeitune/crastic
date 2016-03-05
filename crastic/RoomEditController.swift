@@ -11,10 +11,12 @@ import UIKit
 class RoomEditController: UIViewController {
     @IBOutlet weak var label: UILabel!
     
+    var tota: String?
    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        label.text=tota;
         // Do any additional setup after loading the view, typically from a nib.
         
       
