@@ -40,7 +40,7 @@ class ModelManager: NSObject {
         let marrStudentInfo : NSMutableArray = NSMutableArray()
         if (resultSet != nil) {
             while resultSet.next() {
-                let RoomModel : roomModel = StudentInfo()
+                let RoomModel : roomModel = roomModel()
                 RoomModel.id_room = resultSet.stringForColumn("id_room")
                 RoomModel.roomName = resultSet.stringForColumn("roomName")
                 RoomModel.roomDimensions = resultSet.stringForColumn("roomDimensions")

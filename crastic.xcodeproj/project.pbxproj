@@ -30,6 +30,8 @@
 		FA6689C21C8B3CA200B4BA88 /* Room.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = FA6689C01C8B3CA200B4BA88 /* Room.sqlite */; };
 		FA6689CC1C8B4FD600B4BA88 /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6689CB1C8B4FD600B4BA88 /* ModelManager.swift */; };
 		FA6689CD1C8B4FD600B4BA88 /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6689CB1C8B4FD600B4BA88 /* ModelManager.swift */; };
+		FA6689CF1C8B546F00B4BA88 /* CellRooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6689CE1C8B546F00B4BA88 /* CellRooms.swift */; };
+		FA6689D01C8B546F00B4BA88 /* CellRooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6689CE1C8B546F00B4BA88 /* CellRooms.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +87,7 @@
 		FA6689C01C8B3CA200B4BA88 /* Room.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Room.sqlite; sourceTree = "<group>"; };
 		FA6689C61C8B457500B4BA88 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		FA6689CB1C8B4FD600B4BA88 /* ModelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
+		FA6689CE1C8B546F00B4BA88 /* CellRooms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellRooms.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +180,7 @@
 				FA66899D1C8A883000B4BA88 /* RoomsController.swift */,
 				FA66896F1C8A713200B4BA88 /* LoginViewController.swift */,
 				FA66896D1C8A713200B4BA88 /* AppDelegate.swift */,
+				FA6689CE1C8B546F00B4BA88 /* CellRooms.swift */,
 			);
 			name = controller;
 			sourceTree = "<group>";
@@ -362,6 +366,7 @@
 			files = (
 				FA66899E1C8A883000B4BA88 /* RoomsController.swift in Sources */,
 				FA6689A21C8A9B0200B4BA88 /* Util.swift in Sources */,
+				FA6689CF1C8B546F00B4BA88 /* CellRooms.swift in Sources */,
 				FA6689A01C8A8F2100B4BA88 /* RoomSettingsController.swift in Sources */,
 				FA6689701C8A713200B4BA88 /* LoginViewController.swift in Sources */,
 				FA66899C1C8A757400B4BA88 /* RoomEditController.swift in Sources */,
@@ -382,6 +387,7 @@
 			files = (
 				FA6689831C8A713200B4BA88 /* crasticTests.swift in Sources */,
 				FA6689CD1C8B4FD600B4BA88 /* ModelManager.swift in Sources */,
+				FA6689D01C8B546F00B4BA88 /* CellRooms.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
