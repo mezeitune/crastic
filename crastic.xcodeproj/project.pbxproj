@@ -18,6 +18,7 @@
 		FA66899E1C8A883000B4BA88 /* RoomsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA66899D1C8A883000B4BA88 /* RoomsController.swift */; };
 		FA6689A01C8A8F2100B4BA88 /* RoomSettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA66899F1C8A8F2100B4BA88 /* RoomSettingsController.swift */; };
 		FA6689A21C8A9B0200B4BA88 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6689A11C8A9B0200B4BA88 /* Util.swift */; };
+		FA6689A81C8B17F100B4BA88 /* roomModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6689A71C8B17F100B4BA88 /* roomModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		FA66899D1C8A883000B4BA88 /* RoomsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomsController.swift; sourceTree = "<group>"; };
 		FA66899F1C8A8F2100B4BA88 /* RoomSettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomSettingsController.swift; sourceTree = "<group>"; };
 		FA6689A11C8A9B0200B4BA88 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		FA6689A71C8B17F100B4BA88 /* roomModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = roomModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 		FA6689A41C8A9EC600B4BA88 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				FA6689A71C8B17F100B4BA88 /* roomModel.swift */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 				FA6689701C8A713200B4BA88 /* LoginViewController.swift in Sources */,
 				FA66899C1C8A757400B4BA88 /* RoomEditController.swift in Sources */,
 				FA66896E1C8A713200B4BA88 /* AppDelegate.swift in Sources */,
+				FA6689A81C8B17F100B4BA88 /* roomModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,6 +534,7 @@
 				FA6689941C8A713200B4BA88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA6689951C8A713200B4BA88 /* Build configuration list for PBXNativeTarget "crasticTests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +543,7 @@
 				FA6689971C8A713200B4BA88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA6689981C8A713200B4BA88 /* Build configuration list for PBXNativeTarget "crasticUITests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +552,7 @@
 				FA66899A1C8A713200B4BA88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -10,7 +10,10 @@ import UIKit
 
 class RoomSettingsController: UIViewController {
    
+    @IBOutlet weak var roomnameTextField: UITextField!
+    
     @IBAction func goButton(sender: AnyObject) {
+        Util.roomClient.roomName=roomnameTextField.text
         self.performSegueWithIdentifier("push3", sender: self )
         
         

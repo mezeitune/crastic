@@ -11,5 +11,5 @@ import UIKit
 class Util{
    
     //Para utilizar variables estaticas es: static var nombre= "algo"
-    
+    static var roomClient=roomModel()//Despues estaria bueno hacer un model , de un room y definir esto como un objeto llamado roomClient para guardar todo sobre la room actual
 }
