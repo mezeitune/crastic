@@ -8,10 +8,11 @@
 
 import UIKit
 
-class roomModel{
+class roomModel: NSObject{
     
-    var roomName:String?
-    var roomDimensions:String?
+    var id_room:String = String()
+    var roomName:String = String()
+    var roomDimensions:String = String()
     
     //init(){}
     

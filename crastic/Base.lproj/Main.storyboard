@@ -31,7 +31,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3YC-mY-DV6">
                                 <rect key="frame" x="20" y="169" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cyU-Yf-LqQ">
                                 <rect key="frame" x="45" y="234" width="46" height="30"/>
@@ -200,6 +200,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Settings new room" id="GtS-xe-nub"/>
                     <connections>
+                        <outlet property="roomdimensionsTextField" destination="KNl-XJ-Ib7" id="ctM-df-L3p"/>
                         <outlet property="roomnameTextField" destination="5Kh-27-806" id="KWK-4N-pc3"/>
                         <segue destination="j82-J0-XlZ" kind="show" identifier="push3" id="irl-GQ-dJC"/>
                     </connections>

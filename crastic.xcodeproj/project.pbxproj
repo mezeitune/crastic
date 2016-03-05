@@ -19,6 +19,17 @@
 		FA6689A01C8A8F2100B4BA88 /* RoomSettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA66899F1C8A8F2100B4BA88 /* RoomSettingsController.swift */; };
 		FA6689A21C8A9B0200B4BA88 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6689A11C8A9B0200B4BA88 /* Util.swift */; };
 		FA6689A81C8B17F100B4BA88 /* roomModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6689A71C8B17F100B4BA88 /* roomModel.swift */; };
+		FA6689B91C8B2EFF00B4BA88 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6689AE1C8B2EFF00B4BA88 /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FA6689BA1C8B2EFF00B4BA88 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6689B01C8B2EFF00B4BA88 /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FA6689BB1C8B2EFF00B4BA88 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6689B21C8B2EFF00B4BA88 /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FA6689BC1C8B2EFF00B4BA88 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6689B41C8B2EFF00B4BA88 /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FA6689BD1C8B2EFF00B4BA88 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6689B71C8B2EFF00B4BA88 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FA6689BE1C8B2EFF00B4BA88 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA6689B81C8B2EFF00B4BA88 /* Info.plist */; };
+		FA6689BF1C8B34FD00B4BA88 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6689A91C8B286100B4BA88 /* libsqlite3.0.tbd */; };
+		FA6689C11C8B3CA200B4BA88 /* Room.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = FA6689C01C8B3CA200B4BA88 /* Room.sqlite */; };
+		FA6689C21C8B3CA200B4BA88 /* Room.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = FA6689C01C8B3CA200B4BA88 /* Room.sqlite */; };
+		FA6689CC1C8B4FD600B4BA88 /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6689CB1C8B4FD600B4BA88 /* ModelManager.swift */; };
+		FA6689CD1C8B4FD600B4BA88 /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6689CB1C8B4FD600B4BA88 /* ModelManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +68,23 @@
 		FA66899F1C8A8F2100B4BA88 /* RoomSettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomSettingsController.swift; sourceTree = "<group>"; };
 		FA6689A11C8A9B0200B4BA88 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 		FA6689A71C8B17F100B4BA88 /* roomModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = roomModel.swift; sourceTree = "<group>"; };
+		FA6689A91C8B286100B4BA88 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		FA6689AC1C8B2EFF00B4BA88 /* crastic-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "crastic-Bridging-Header.h"; sourceTree = "<group>"; };
+		FA6689AD1C8B2EFF00B4BA88 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = fmdb/src/fmdb/FMDatabase.h; sourceTree = SOURCE_ROOT; };
+		FA6689AE1C8B2EFF00B4BA88 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = fmdb/src/fmdb/FMDatabase.m; sourceTree = SOURCE_ROOT; };
+		FA6689AF1C8B2EFF00B4BA88 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = fmdb/src/fmdb/FMDatabaseAdditions.h; sourceTree = SOURCE_ROOT; };
+		FA6689B01C8B2EFF00B4BA88 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = fmdb/src/fmdb/FMDatabaseAdditions.m; sourceTree = SOURCE_ROOT; };
+		FA6689B11C8B2EFF00B4BA88 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = fmdb/src/fmdb/FMDatabasePool.h; sourceTree = SOURCE_ROOT; };
+		FA6689B21C8B2EFF00B4BA88 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = fmdb/src/fmdb/FMDatabasePool.m; sourceTree = SOURCE_ROOT; };
+		FA6689B31C8B2EFF00B4BA88 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = fmdb/src/fmdb/FMDatabaseQueue.h; sourceTree = SOURCE_ROOT; };
+		FA6689B41C8B2EFF00B4BA88 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = fmdb/src/fmdb/FMDatabaseQueue.m; sourceTree = SOURCE_ROOT; };
+		FA6689B51C8B2EFF00B4BA88 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = fmdb/src/fmdb/FMDB.h; sourceTree = SOURCE_ROOT; };
+		FA6689B61C8B2EFF00B4BA88 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = fmdb/src/fmdb/FMResultSet.h; sourceTree = SOURCE_ROOT; };
+		FA6689B71C8B2EFF00B4BA88 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = fmdb/src/fmdb/FMResultSet.m; sourceTree = SOURCE_ROOT; };
+		FA6689B81C8B2EFF00B4BA88 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = fmdb/src/fmdb/Info.plist; sourceTree = SOURCE_ROOT; };
+		FA6689C01C8B3CA200B4BA88 /* Room.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Room.sqlite; sourceTree = "<group>"; };
+		FA6689C61C8B457500B4BA88 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		FA6689CB1C8B4FD600B4BA88 /* ModelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA6689BF1C8B34FD00B4BA88 /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +116,8 @@
 		FA6689611C8A713200B4BA88 = {
 			isa = PBXGroup;
 			children = (
+				FA6689C61C8B457500B4BA88 /* libsqlite3.tbd */,
+				FA6689A91C8B286100B4BA88 /* libsqlite3.0.tbd */,
 				FA66896C1C8A713200B4BA88 /* crastic */,
 				FA6689811C8A713200B4BA88 /* crasticTests */,
 				FA66898C1C8A713200B4BA88 /* crasticUITests */,
@@ -107,6 +138,9 @@
 		FA66896C1C8A713200B4BA88 /* crastic */ = {
 			isa = PBXGroup;
 			children = (
+				FA6689C01C8B3CA200B4BA88 /* Room.sqlite */,
+				FA6689AC1C8B2EFF00B4BA88 /* crastic-Bridging-Header.h */,
+				FA6689AB1C8B2E7E00B4BA88 /* FMDB */,
 				FA6689A61C8A9ED500B4BA88 /* Util */,
 				FA6689A51C8A9ECE00B4BA88 /* view */,
 				FA6689A41C8A9EC600B4BA88 /* model */,
@@ -151,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				FA6689A71C8B17F100B4BA88 /* roomModel.swift */,
+				FA6689CB1C8B4FD600B4BA88 /* ModelManager.swift */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -170,6 +205,25 @@
 				FA6689A11C8A9B0200B4BA88 /* Util.swift */,
 			);
 			name = Util;
+			sourceTree = "<group>";
+		};
+		FA6689AB1C8B2E7E00B4BA88 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				FA6689AD1C8B2EFF00B4BA88 /* FMDatabase.h */,
+				FA6689AE1C8B2EFF00B4BA88 /* FMDatabase.m */,
+				FA6689AF1C8B2EFF00B4BA88 /* FMDatabaseAdditions.h */,
+				FA6689B01C8B2EFF00B4BA88 /* FMDatabaseAdditions.m */,
+				FA6689B11C8B2EFF00B4BA88 /* FMDatabasePool.h */,
+				FA6689B21C8B2EFF00B4BA88 /* FMDatabasePool.m */,
+				FA6689B31C8B2EFF00B4BA88 /* FMDatabaseQueue.h */,
+				FA6689B41C8B2EFF00B4BA88 /* FMDatabaseQueue.m */,
+				FA6689B51C8B2EFF00B4BA88 /* FMDB.h */,
+				FA6689B61C8B2EFF00B4BA88 /* FMResultSet.h */,
+				FA6689B71C8B2EFF00B4BA88 /* FMResultSet.m */,
+				FA6689B81C8B2EFF00B4BA88 /* Info.plist */,
+			);
+			name = FMDB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +330,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA6689BE1C8B2EFF00B4BA88 /* Info.plist in Resources */,
+				FA6689C11C8B3CA200B4BA88 /* Room.sqlite in Resources */,
 				FA6689781C8A713200B4BA88 /* LaunchScreen.storyboard in Resources */,
 				FA6689751C8A713200B4BA88 /* Assets.xcassets in Resources */,
 				FA6689731C8A713200B4BA88 /* Main.storyboard in Resources */,
@@ -286,6 +342,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA6689C21C8B3CA200B4BA88 /* Room.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,8 +365,14 @@
 				FA6689A01C8A8F2100B4BA88 /* RoomSettingsController.swift in Sources */,
 				FA6689701C8A713200B4BA88 /* LoginViewController.swift in Sources */,
 				FA66899C1C8A757400B4BA88 /* RoomEditController.swift in Sources */,
+				FA6689BA1C8B2EFF00B4BA88 /* FMDatabaseAdditions.m in Sources */,
+				FA6689BD1C8B2EFF00B4BA88 /* FMResultSet.m in Sources */,
 				FA66896E1C8A713200B4BA88 /* AppDelegate.swift in Sources */,
+				FA6689CC1C8B4FD600B4BA88 /* ModelManager.swift in Sources */,
+				FA6689BB1C8B2EFF00B4BA88 /* FMDatabasePool.m in Sources */,
+				FA6689BC1C8B2EFF00B4BA88 /* FMDatabaseQueue.m in Sources */,
 				FA6689A81C8B17F100B4BA88 /* roomModel.swift in Sources */,
+				FA6689B91C8B2EFF00B4BA88 /* FMDatabase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +381,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA6689831C8A713200B4BA88 /* crasticTests.swift in Sources */,
+				FA6689CD1C8B4FD600B4BA88 /* ModelManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,10 +513,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = crastic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mezeitune.roomcrastic.crastic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_DISABLE_SAFETY_CHECKS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "crastic/crastic-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -460,10 +528,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = crastic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mezeitune.roomcrastic.crastic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_DISABLE_SAFETY_CHECKS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "crastic/crastic-Bridging-Header.h";
 			};
 			name = Release;
 		};
