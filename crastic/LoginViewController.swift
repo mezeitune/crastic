@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class LoginViewController: UIViewController {
     let user="mezeitune"
     let pass="123"
     @IBOutlet weak var userTextField: UITextField!

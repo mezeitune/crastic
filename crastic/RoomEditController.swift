@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MainController: UIViewController {
+class RoomEditController: UIViewController {
     @IBOutlet weak var label: UILabel!
     
    

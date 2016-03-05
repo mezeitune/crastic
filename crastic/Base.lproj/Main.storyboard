@@ -8,7 +8,7 @@
         <!--Crastic Login-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="crastic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="crastic" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -90,7 +90,7 @@
         <!--<Your Room name>-->
         <scene sceneID="yjB-br-fHL">
             <objects>
-                <viewController id="j82-J0-XlZ" customClass="MainController" customModule="crastic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="j82-J0-XlZ" customClass="RoomEditController" customModule="crastic" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="sOx-Qj-uuO"/>
                         <viewControllerLayoutGuide type="bottom" id="fRR-cf-BHe"/>
@@ -223,7 +223,7 @@
         <!--Settings new room-->
         <scene sceneID="JyE-3v-CGp">
             <objects>
-                <viewController id="YgF-Y4-bPc" customClass="SettingsController" customModule="crastic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="YgF-Y4-bPc" customClass="RoomSettingsController" customModule="crastic" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kKK-J0-Bt5"/>
                         <viewControllerLayoutGuide type="bottom" id="22b-rU-VQA"/>
@@ -236,7 +236,7 @@
                                 <rect key="frame" x="273" y="421" width="30" height="30"/>
                                 <state key="normal" title="Go"/>
                                 <connections>
-                                    <action selector="goButton:" destination="YgF-Y4-bPc" eventType="touchUpInside" id="nev-yW-kPG"/>
+                                    <action selector="goButton:" destination="YgF-Y4-bPc" eventType="touchUpInside" id="puR-DX-5nr"/>
                                 </connections>
                             </button>
                         </subviews>

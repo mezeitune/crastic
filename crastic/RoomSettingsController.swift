@@ -8,13 +8,11 @@
 
 import UIKit
 
-class SettingsController: UIViewController {
-    @IBAction func goButton(sender: AnyObject) {
-        self.performSegueWithIdentifier("push3", sender: self)
-    }
+class RoomSettingsController: UIViewController {
    
-    
-    
+    @IBAction func goButton(sender: AnyObject) {
+         self.performSegueWithIdentifier("push3", sender: self)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
