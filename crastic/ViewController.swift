@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     @IBAction func okButton(sender: AnyObject) {
         if(userTextField.text==user && passTextField.text==pass){
             //okLabel.text="correcto"
-            self.performSegueWithIdentifier("push", sender: self)
+            self.performSegueWithIdentifier("push1", sender: self)
         }else{
             okLabel.text="No es correcto"
         }
